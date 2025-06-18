@@ -1,5 +1,6 @@
 import { describe, it } from "mocha";
-import { sum } from "./f.js";
+import { expect } from "chai";
+import { sum } from "../src/sum.js";
 
 describe("sum", () => {
     it("sums 1, 2, and 3 to 6", () => {
